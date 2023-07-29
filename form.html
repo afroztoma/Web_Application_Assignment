@@ -1,0 +1,80 @@
+<html>
+     <head>
+       <title>Form</title>
+       <link rel="icon" type="image/x-icon" href="self-introduction-256.png">
+     </head>
+
+<body>
+          <a href="Map.html"target="_blank">Map</a>
+          <a href="vedio.html"target="_blank">Vedio</a>
+          <a href="Introduction.html"target="_blank">Introduction</a>
+          <a href="Result.html"target="_blank">Result</a>
+
+    
+        <h2 style="background-color:Violet; text-align:center">Registration Form</h2>
+        
+         <br/>
+      <form>
+        <div>
+           <label for="firstname">FirstName:</label>
+           <input type="text" name="firstname" id="firstname"required>
+        </div> <br>  
+        <div>
+           <label for="lastname">LastName:</label>
+           <input type="text" name="lastname" id="lastname"required>
+        </div>  <br> 
+        <div>
+           <label for="password">Password:</label>
+           <input type="password" name="password" id="password">
+        </div> <br>
+        <div>
+           <label for="email">Email:</label>
+           <input type="email" id="email" name="email">
+        </div><br>
+        <div>
+           <label for="gender">Gender:</label>
+           <input type="radio" name="gender" id="gender" value="Male">Male
+           <input type="radio" name="gender" id="gender" value="Female">Female
+           <input type="radio" name="gender" id="gender" value="Others">Others
+        </div><br>   
+         <div>
+           <label for="dob">Date of Birth:</label>
+           <input type="date" name="dob" id="dob">
+        </div> <br>
+        <div>
+           <label for="religion">Religion:</label>
+           <input  type="checkbox" name="c1" id="muslim" value="islam">Islam
+           <input  type="checkbox" name="c1" id="hindu" value="hindu">Hindu           
+        </div> <br> 
+        <div>
+           <label for="department">Department:</label>
+           <select name="department">
+               <option value="SWE"selected>SWE</option>
+               <option value="CSE"selected>CSE</option>
+               <option value="EEE"selected>EEE</option>
+               <option value="CE"selected>CE</option>
+           </select>
+        </div><br>
+        <div>
+             <label for="photo">Choose your photo:</label><br>
+             <input type="file" name="photo" id="photo">
+        </div><br>
+         <div>
+           <label for="text">Text:</label><br>
+           <textarea cols="35" rows="10"></textarea>    
+        </div><br>
+       <div>
+          <input type="submit" value="Registration">
+          <input type="reset" value="Clear">
+       </div>          
+
+
+
+
+
+
+</body>
+
+
+
+</html>
